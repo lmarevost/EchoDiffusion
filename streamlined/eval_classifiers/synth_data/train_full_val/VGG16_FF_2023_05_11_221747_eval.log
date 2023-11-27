@@ -1,0 +1,38 @@
+Logging to:
+'/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_full_val/VGG16_FF_2023_05_11_221747_eval.log'
+
+Current time: 2023_05_12_103029
+****************************************************************************************************
+DATASET
+  - Val: 3,895 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+
+SETTINGS:         
+  - Batch size:       32         
+  - Num of Classes:   4         
+  - Device used:      cuda:0         
+
+RESULTS SAVED TO: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_full_val
+****************************************************************************************************
+
+------------------------------------------------------------------------------------
+MODEL: VGG16, with pretrained weights: False, and frozen layers: False
+model checkpoint: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/synth_data/train_full_val/VGG16_FF_2023_05_11_221747.pt
+------------------------------------------------------------------------------------
+
+Number of classes (train): 4
+Number of classes (val): 4
+F1-Score per class: {'A2C': 0.9222222, 'A4C': 0.98068964, 'PLAX': 0.98516655, 'PSAX': 0.92462313}
+ROC AUC per class: {'A2C': 0.99336517, 'A4C': 0.9982455, 'PLAX': 0.99899787, 'PSAX': 0.99872065}
+PRC AUC per class: {'A2C': 0.96979564, 'A4C': 0.99784625, 'PLAX': 0.99852806, 'PSAX': 0.9777904}
+Macro averages:
+F1-Score: 0.95317542552948
+ROC AUC: 0.9973322749137878
+PRC AUC: 0.985990047454834
+
+Normalized Confusion Matrix plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_full_val/VGG16_FF_2023_05_11_221747_eval_CM_norm.png
+
+Precision-Recall Curve plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_full_val/VGG16_FF_2023_05_11_221747_eval_PRC.png
+
+Receiver Operating Characteristic plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_full_val/VGG16_FF_2023_05_11_221747_eval_ROC.png
+
+Finished! Total run time: 0d 00h 00m 30s

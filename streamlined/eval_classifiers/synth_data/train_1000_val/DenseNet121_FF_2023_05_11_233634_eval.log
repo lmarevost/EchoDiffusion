@@ -1,0 +1,38 @@
+Logging to:
+'/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_1000_val/DenseNet121_FF_2023_05_11_233634_eval.log'
+
+Current time: 2023_05_12_103235
+****************************************************************************************************
+DATASET
+  - Val: 3,895 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+
+SETTINGS:         
+  - Batch size:       32         
+  - Num of Classes:   4         
+  - Device used:      cuda:0         
+
+RESULTS SAVED TO: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_1000_val
+****************************************************************************************************
+
+------------------------------------------------------------------------------------
+MODEL: DenseNet121, with pretrained weights: False, and frozen layers: False
+model checkpoint: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/synth_data/train_1000_val/DenseNet121_FF_2023_05_11_233634.pt
+------------------------------------------------------------------------------------
+
+Number of classes (train): 4
+Number of classes (val): 4
+F1-Score per class: {'A2C': 0.8059259, 'A4C': 0.95702595, 'PLAX': 0.955315, 'PSAX': 0.7482759}
+ROC AUC per class: {'A2C': 0.9826642, 'A4C': 0.99403083, 'PLAX': 0.99346995, 'PSAX': 0.98097014}
+PRC AUC per class: {'A2C': 0.8737738, 'A4C': 0.9918146, 'PLAX': 0.9931589, 'PSAX': 0.7893404}
+Macro averages:
+F1-Score: 0.8666356801986694
+ROC AUC: 0.9877837896347046
+PRC AUC: 0.9120218753814697
+
+Normalized Confusion Matrix plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_1000_val/DenseNet121_FF_2023_05_11_233634_eval_CM_norm.png
+
+Precision-Recall Curve plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_1000_val/DenseNet121_FF_2023_05_11_233634_eval_PRC.png
+
+Receiver Operating Characteristic plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_1000_val/DenseNet121_FF_2023_05_11_233634_eval_ROC.png
+
+Finished! Total run time: 0d 00h 00m 28s

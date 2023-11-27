@@ -1,0 +1,38 @@
+Logging to:
+'/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_8000_val/ResNet18_FF_2023_05_11_230338_eval.log'
+
+Current time: 2023_05_12_103133
+****************************************************************************************************
+DATASET
+  - Val: 3,895 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+
+SETTINGS:         
+  - Batch size:       32         
+  - Num of Classes:   4         
+  - Device used:      cuda:0         
+
+RESULTS SAVED TO: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_8000_val
+****************************************************************************************************
+
+------------------------------------------------------------------------------------
+MODEL: ResNet18, with pretrained weights: False, and frozen layers: False
+model checkpoint: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/synth_data/train_8000_val/ResNet18_FF_2023_05_11_230338.pt
+------------------------------------------------------------------------------------
+
+Number of classes (train): 4
+Number of classes (val): 4
+F1-Score per class: {'A2C': 0.89337176, 'A4C': 0.9715656, 'PLAX': 0.97086835, 'PSAX': 0.8401977}
+ROC AUC per class: {'A2C': 0.99031806, 'A4C': 0.9969969, 'PLAX': 0.9973374, 'PSAX': 0.9918729}
+PRC AUC per class: {'A2C': 0.9560234, 'A4C': 0.9959357, 'PLAX': 0.99695957, 'PSAX': 0.9195403}
+Macro averages:
+F1-Score: 0.9190008640289307
+ROC AUC: 0.994131326675415
+PRC AUC: 0.9671148061752319
+
+Normalized Confusion Matrix plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_8000_val/ResNet18_FF_2023_05_11_230338_eval_CM_norm.png
+
+Precision-Recall Curve plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_8000_val/ResNet18_FF_2023_05_11_230338_eval_PRC.png
+
+Receiver Operating Characteristic plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/eval_classifiers/synth_data/train_8000_val/ResNet18_FF_2023_05_11_230338_eval_ROC.png
+
+Finished! Total run time: 0d 00h 00m 27s
