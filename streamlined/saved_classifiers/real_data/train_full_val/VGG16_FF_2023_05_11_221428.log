@@ -1,0 +1,146 @@
+Logging to:
+'/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/real_data/train_full_val/VGG16_FF_2023_05_11_221428.log'
+
+Current time: 2023_05_11_221428
+****************************************************************************************************
+DATASETS
+  - Train: 31,130 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/train_full
+  - Val: 3,895 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+TOTAL DATASET SIZE: 35,025
+
+SETTINGS:         
+  - Learning rate:    0.001         
+  - Batch size:       32         
+  - Num of Epochs:    25         
+  - Num of Classes:   4         
+  - Device used:      cuda:0         
+
+RESULTS SAVED TO: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/real_data/train_full_val
+****************************************************************************************************
+
+------------------------------------------------------------------------------------
+MODEL: VGG16, with pretrained weights: False, and frozen layers: False
+------------------------------------------------------------------------------------
+
+134,275,780 Trainable Parameters / 134,275,780 Total Parameters
+
+Shape of data and labels:
+Dataset: train 	 Datashape: torch.Size([32, 1, 112, 112])	 Labelshape: torch.Size([32])
+Dataset: val 	 Datashape: torch.Size([32, 1, 112, 112])	 Labelshape: torch.Size([32])
+
+Epoch 1/25
+	Train - Loss: 0.4668 Acc: 0.8045 F1: 0.6826 AUROC: 0.9428 AUPRC: 0.7844
+	Val - Loss: 0.1988 Acc: 0.9276 F1: 0.8837 AUROC: 0.9918 AUPRC: 0.9466
+	Validation AUPRC increased (0.000000 --> 0.946608).  Saving model ...
+
+Epoch 2/25
+	Train - Loss: 0.1473 Acc: 0.9428 F1: 0.8951 AUROC: 0.9938 AUPRC: 0.9561
+	Val - Loss: 0.1209 Acc: 0.9571 F1: 0.9259 AUROC: 0.9963 AUPRC: 0.9725
+	Validation AUPRC increased (0.946608 --> 0.972451).  Saving model ...
+
+Epoch 3/25
+	Train - Loss: 0.0940 Acc: 0.9657 F1: 0.9374 AUROC: 0.9973 AUPRC: 0.9806
+	Val - Loss: 0.1257 Acc: 0.9538 F1: 0.9184 AUROC: 0.9973 AUPRC: 0.9805
+	Validation AUPRC increased (0.972451 --> 0.980499).  Saving model ...
+
+Epoch 4/25
+	Train - Loss: 0.0707 Acc: 0.9732 F1: 0.9520 AUROC: 0.9984 AUPRC: 0.9885
+	Val - Loss: 0.1045 Acc: 0.9635 F1: 0.9360 AUROC: 0.9976 AUPRC: 0.9840
+	Validation AUPRC increased (0.980499 --> 0.984007).  Saving model ...
+
+Epoch 5/25
+	Train - Loss: 0.0518 Acc: 0.9814 F1: 0.9665 AUROC: 0.9991 AUPRC: 0.9937
+	Val - Loss: 0.0808 Acc: 0.9746 F1: 0.9547 AUROC: 0.9982 AUPRC: 0.9865
+	Validation AUPRC increased (0.984007 --> 0.986526).  Saving model ...
+
+Epoch 6/25
+	Train - Loss: 0.0277 Acc: 0.9905 F1: 0.9827 AUROC: 0.9996 AUPRC: 0.9980
+	Val - Loss: 0.0876 Acc: 0.9761 F1: 0.9576 AUROC: 0.9983 AUPRC: 0.9872
+	Validation AUPRC increased (0.986526 --> 0.987218).  Saving model ...
+
+Epoch 7/25
+	Train - Loss: 0.0229 Acc: 0.9927 F1: 0.9869 AUROC: 0.9997 AUPRC: 0.9985
+	Val - Loss: 0.0886 Acc: 0.9756 F1: 0.9568 AUROC: 0.9983 AUPRC: 0.9872
+
+Epoch 8/25
+	Train - Loss: 0.0198 Acc: 0.9939 F1: 0.9889 AUROC: 0.9998 AUPRC: 0.9988
+	Val - Loss: 0.0913 Acc: 0.9756 F1: 0.9567 AUROC: 0.9983 AUPRC: 0.9875
+	Validation AUPRC increased (0.987218 --> 0.987476).  Saving model ...
+
+Epoch 9/25
+	Train - Loss: 0.0175 Acc: 0.9944 F1: 0.9899 AUROC: 0.9998 AUPRC: 0.9991
+	Val - Loss: 0.0894 Acc: 0.9769 F1: 0.9588 AUROC: 0.9984 AUPRC: 0.9880
+	Validation AUPRC increased (0.987476 --> 0.988004).  Saving model ...
+
+Epoch 10/25
+	Train - Loss: 0.0148 Acc: 0.9954 F1: 0.9919 AUROC: 0.9999 AUPRC: 0.9993
+	Val - Loss: 0.0945 Acc: 0.9766 F1: 0.9586 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 11/25
+	Train - Loss: 0.0130 Acc: 0.9960 F1: 0.9929 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0905 Acc: 0.9772 F1: 0.9595 AUROC: 0.9984 AUPRC: 0.9881
+	Validation AUPRC increased (0.988004 --> 0.988077).  Saving model ...
+
+Epoch 12/25
+	Train - Loss: 0.0128 Acc: 0.9964 F1: 0.9936 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0914 Acc: 0.9782 F1: 0.9615 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 13/25
+	Train - Loss: 0.0127 Acc: 0.9964 F1: 0.9936 AUROC: 0.9999 AUPRC: 0.9994
+	Val - Loss: 0.0914 Acc: 0.9772 F1: 0.9596 AUROC: 0.9984 AUPRC: 0.9881
+	Validation AUPRC increased (0.988077 --> 0.988078).  Saving model ...
+
+Epoch 14/25
+	Train - Loss: 0.0122 Acc: 0.9963 F1: 0.9935 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0918 Acc: 0.9774 F1: 0.9600 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 15/25
+	Train - Loss: 0.0118 Acc: 0.9969 F1: 0.9945 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0927 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 16/25
+	Train - Loss: 0.0117 Acc: 0.9968 F1: 0.9943 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0927 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 17/25
+	Train - Loss: 0.0119 Acc: 0.9966 F1: 0.9938 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0927 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 18/25
+	Train - Loss: 0.0119 Acc: 0.9965 F1: 0.9938 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9880
+
+Epoch 19/25
+	Train - Loss: 0.0122 Acc: 0.9967 F1: 0.9941 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0927 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 20/25
+	Train - Loss: 0.0116 Acc: 0.9966 F1: 0.9940 AUROC: 0.9999 AUPRC: 0.9996
+	Val - Loss: 0.0926 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 21/25
+	Train - Loss: 0.0118 Acc: 0.9969 F1: 0.9944 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 22/25
+	Train - Loss: 0.0120 Acc: 0.9966 F1: 0.9940 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9772 F1: 0.9596 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 23/25
+	Train - Loss: 0.0120 Acc: 0.9965 F1: 0.9937 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9769 F1: 0.9591 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 24/25
+	Train - Loss: 0.0121 Acc: 0.9966 F1: 0.9938 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9772 F1: 0.9596 AUROC: 0.9984 AUPRC: 0.9881
+
+Epoch 25/25
+	Train - Loss: 0.0117 Acc: 0.9970 F1: 0.9947 AUROC: 0.9999 AUPRC: 0.9995
+	Val - Loss: 0.0926 Acc: 0.9772 F1: 0.9596 AUROC: 0.9984 AUPRC: 0.9881
+
+Training completed in 0d 00h 28m 50s.
+Best Val AUPRC: 0.988078, Best Epoch: 13
+Corresponding metrics - Val AUROC: 0.998428, Val F1: 0.959571, Val Acc: 0.977150, Val Loss: 0.091352
+------------------------------------------------------------------------------------
+
+Finished! Total run time: 0d 00h 29m 08s
