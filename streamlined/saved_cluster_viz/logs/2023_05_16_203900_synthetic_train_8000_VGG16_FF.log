@@ -1,0 +1,25 @@
+Logging to:
+'/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_cluster_viz/logs/2023_05_16_203900_synthetic_train_8000_VGG16_FF.log'
+
+Current time: 2023_05_16_203900
+****************************************************************************************************
+DATASET
+  - Data: 32,000 images found in /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/synthetic_samples/train_8000/PNG
+
+SETTINGS:         
+  - Batch size:       32         
+  - Num of Classes:   4         
+  - Device used:      cuda:0         
+
+PNGs SAVED TO: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_cluster_viz/PNGs
+****************************************************************************************************
+MODEL: VGG16, with pretrained weights: False, and frozen layers: False
+model checkpoint: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_classifiers/real_data/train_full_val/VGG16_FF_2023_05_11_221428.pt
+
+Plotting...
+colors:
+{0: 'b', 1: 'c', 2: 'm', 3: 'y'}
+
+plot saved to /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/saved_cluster_viz/PNGs/2023_05_16_203900_synthetic_train_8000_VGG16_FF_2023_05_11_221428.pt_tsne_subplots.png
+
+Finished! Total run time: 0d 00h 32m 41s
