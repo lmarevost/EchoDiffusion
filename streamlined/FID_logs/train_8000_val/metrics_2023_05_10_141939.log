@@ -1,0 +1,79 @@
+FID EVALUATION
+
+Real dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+Samples evaluated: 3,895
+
+Fake dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/synthetic_samples/train_8000/PNG
+Samples evaluated: 10,000
+
+Results saved to:
+/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/FID_logs/train_8000_val/metrics_2023_05_10_141939.log
+
+----------------------------------------------------------------------------------------------------
+
+Subset 1
+FID: 31.75
+Precision: 0.64
+Recall 0.19
+Subset time: 0d 00h 00m 49s
+
+Subset 2
+FID: 31.68
+Precision: 0.63
+Recall 0.19
+Subset time: 0d 00h 00m 20s
+
+Subset 3
+FID: 31.88
+Precision: 0.64
+Recall 0.18
+Subset time: 0d 00h 00m 20s
+
+Subset 4
+FID: 31.88
+Precision: 0.64
+Recall 0.18
+Subset time: 0d 00h 00m 20s
+
+Subset 5
+FID: 31.57
+Precision: 0.64
+Recall 0.18
+Subset time: 0d 00h 00m 20s
+
+Subset 6
+FID: 31.45
+Precision: 0.63
+Recall 0.19
+Subset time: 0d 00h 00m 20s
+
+Subset 7
+FID: 32.14
+Precision: 0.64
+Recall 0.17
+Subset time: 0d 00h 00m 20s
+
+Subset 8
+FID: 31.66
+Precision: 0.64
+Recall 0.18
+Subset time: 0d 00h 00m 20s
+
+Subset 9
+FID: 31.69
+Precision: 0.65
+Recall 0.20
+Subset time: 0d 00h 00m 20s
+
+Subset 10
+FID: 31.65
+Precision: 0.64
+Recall 0.18
+Subset time: 0d 00h 00m 20s
+
+----------------------------------------------------------------------------------------------------
+
+Mean FID: 31.73 ± 0.18
+Mean Precision: 0.64 ± 0.00
+Mean Recall: 0.19 ± 0.01
+Total run time: 0d 00h 03m 51s

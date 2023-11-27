@@ -1,0 +1,12 @@
+FID EVALUATION
+
+Real dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+Samples evaluated: 3,895
+
+Fake dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/synthetic_samples/train_16000/PNG
+Samples evaluated: 32,000
+
+Results saved to:
+/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/FID_logs/train_16000_val/metrics_2023_05_10_150623.log
+
+----------------------------------------------------------------------------------------------------

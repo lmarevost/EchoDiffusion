@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+blobfile>=1.0.5
+torch
+torchvision
+tqdm
+numpy
+pandas
+pillow
+matplotlib
+scikit-learn
+pytorch-lightning
+pytorch_msssim
+monai
+torchmetrics
+torch-fidelity
+torchio 
+einops
+lpips
+streamlit
+seaborn
+opencv-python

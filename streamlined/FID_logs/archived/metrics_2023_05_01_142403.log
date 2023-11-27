@@ -1,0 +1,18 @@
+FID EVALUATION
+
+Real dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/new/4class_imbalanced_38915/train
+Samples evaluated: 31,130
+
+Fake dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/new/4class_imbalanced_38915/train
+Samples evaluated: 31,130
+
+Results saved to:
+/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/FID_logs/metrics_2023_05_01_142403.log
+
+----------------------------------------------------------------------------------------------------
+
+Subset 1
+FID: -0.00
+Precision: 1.00
+Recall 1.00
+Subset time: 0d 00h 01m 46s

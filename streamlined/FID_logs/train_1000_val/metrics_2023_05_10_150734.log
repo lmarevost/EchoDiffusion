@@ -1,0 +1,25 @@
+FID EVALUATION
+
+Real dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/data/final/val
+Samples evaluated: 3,895
+
+Fake dataset: /mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/synthetic_samples/train_1000/PNG
+Samples evaluated: 32,000
+
+Results saved to:
+/mimer/NOBACKUP/priv/chair/echo_anouka_luismi/streamlined/FID_logs/train_1000_val/metrics_2023_05_10_150734.log
+
+----------------------------------------------------------------------------------------------------
+
+Subset 1
+FID: 20.93
+Precision: 0.68
+Recall 0.05
+Subset time: 0d 00h 01m 15s
+
+----------------------------------------------------------------------------------------------------
+
+Mean FID: 20.93 ± 0.00
+Mean Precision: 0.68 ± 0.00
+Mean Recall: 0.05 ± 0.00
+Total run time: 0d 00h 01m 15s
